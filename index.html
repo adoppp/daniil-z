@@ -24,9 +24,12 @@
 
     <header>
       <div class="container-header">
+        <div class="for-mob">
         <a href="index.html">
             <img srcset="./images/logo.jpg 1x, ./images/logo@2.jpg 2x" src="./images/logo.jpg" alt="logo">
         </a>
+        <button type="button" class="button-header mobile">Login</button>
+        </div>
         
         <div class="container-nav-header">
         <nav>
@@ -38,7 +41,7 @@
 
             
         </nav>
-        <button type="button" class="button-header">Login</button>
+        <button type="button" class="button-header dekst">Login</button>
         </div>
 
       </div>
@@ -79,7 +82,7 @@
                     <h3 class="section-two-h3 w-h3-s-two">Evidence-Based Therapy Workbooks</h3>
                 </li>
                 <li class="item-section-two">
-                    <img srcset="./images/card-two.jpg 1x, ./images/card-two@2.jpg 2x" src="./images/card-two.jpg" alt="List">
+                    <img srcset="./images/card-two.jpg 1x, ./images/card-two@2.jpg 2x" src="./images/card-two.jpg" alt="List" class="mob-img">
                     <div class="icon-section-two">
                         <svg class="svg-section-two-item">
                             <use href="./images/symbol-defs.svg#icon-pen"></use>
@@ -88,7 +91,7 @@
                     <h3 class="section-two-h3">Guided Journals</h3>
                 </li>
                 <li class="item-section-two">
-                    <img srcset="./images/card-three.jpg 1x, ./images/card-three@2.jpg 2x" src="./images/card-three.jpg" alt="Comments">
+                    <img srcset="./images/card-three.jpg 1x, ./images/card-three@2.jpg 2x" src="./images/card-three.jpg" alt="Comments" class="mob-img">
                     <div class="icon-section-two">
                         <svg class="svg-section-two-item">
                             <use href="./images/symbol-defs.svg#icon-people"></use>
@@ -103,43 +106,6 @@
     <section>
         <div class="container-section-two">
             <h2 class="title-section-one sec-two-tit">How it works</h2>
-            <ul class="list-section-three h">
-                <li>
-                    <img srcset="./images/cardHowitworks.jpg 1x, ./images/cardHowitworks@2.jpg 2x" src="./images/cardHowitworks.jpg" alt="Books">
-                </li>
-                <li style="margin-top: 150px">
-                    <div class="div-nuber-sec-three">01</div>
-                    <h3 class="h3-section-three">Browse the 100s of titles on our catalog</h3>
-                </li>
-                <li style="margin-top: 150px">
-                    <div class="div-nuber-sec-three padding-div">02</div>
-                    <h3 class="h3-section-three">Find the topic you need guidance with</h3>
-                </li>
-                <li>
-                    <img srcset="./images/cardHowitworkstwo.jpg 1x, ./images/cardHowitworkstwo@@.jpg 2x" src="./images/cardHowitworkstwo.jpg" alt="This website">
-                </li>
-                <li>
-                    <img srcset="./images/cardHowitworksthree.jpg 1x, ./images/cardHowitworksthree@2.jpg 2x" src="./images/cardHowitworksthree.jpg" alt="Workbook detail"> 
-                </li>
-                <li style="margin-right: 320px; margin-top: 150px">
-                    <div class="div-nuber-sec-three padding-div margin-div">03</div>
-                    <h3 class="h3-section-three">Purchase</h3>
-                </li>
-                <li style="margin-top: 150px; margin-left: 80px;">
-                    <div class="div-nuber-sec-three padding-div">04</div>
-                    <h3 class="h3-section-three">Finish of your purchase</h3>
-                </li>
-                <li>
-                    <img srcset="./images/cardHowitworksfour.jpg 1x, ./images/cardHowitworksfour@2.jpg 2x" src="./images/cardHowitworksfour.jpg" alt="Girl">
-                </li>
-                <li>
-                    <img srcset="./images/cardHowitworksfive.jpg 1x, ./images/cardHowitworksfive@2.jpg 2x" src="./images/cardHowitworksfive.jpg" alt="Comments">
-                </li>
-                <li style="margin-top: 150px">
-                    <div class="div-nuber-sec-three padding-div">05</div>
-                    <h3 class="h3-section-three">Share your realizations</h3>
-                </li>
-            </ul>
 
             <ul class="list-section-three">
                 <li class="list-item-da">
@@ -173,6 +139,47 @@
                 <li class="list-item-da">
                     <img srcset="./images/cardHowitworksfive.jpg 1x, ./images/cardHowitworksfive@2.jpg 2x" src="./images/cardHowitworksfive.jpg" alt="Comments">
                     <div class="div-text txt">
+                        <div class="div-nuber-sec-three padding-div">05</div>
+                        <h3 class="h3-section-three">Share your realizations</h3>
+                    </div>
+                </li>
+            </ul>
+            
+            <ul class="list-btn">
+                <li><button type="button" class="li-b an">1</button></li>
+                <li><button type="button" class="an">2</button></li>
+                <li><button type="button" class="an">3</button></li>
+                <li><button type="button" class="an">4</button></li>
+                <li><button type="button" class="an">5</button></li>
+            </ul>
+
+            <ul class="da-list">
+                <li class="animation one">
+                    <div class="div-text">
+                        <div class="div-nuber-sec-three">01</div>
+                        <h3 class="h3-section-three">Browse the 100s of titles on our catalog</h3>
+                    </div>
+                </li>
+                <li class="animation two">
+                    <div class="div-text">
+                        <div class="div-nuber-sec-three padding-div">02</div>
+                        <h3 class="h3-section-three">Find the topic you need guidance with</h3>
+                    </div>
+                </li>
+                <li class="animation three">
+                    <div class="div-text">
+                        <div class="div-nuber-sec-three padding-div margin-div">03</div>
+                        <h3 class="h3-section-three">Purchase</h3>
+                    </div>
+                </li>
+                <li class="animation four">
+                    <div class="div-text">
+                        <div class="div-nuber-sec-three padding-div">04</div>
+                        <h3 class="h3-section-three">Finish of your purchase</h3>
+                    </div>
+                </li>
+                <li class="animation five">
+                    <div class="div-text">
                         <div class="div-nuber-sec-three padding-div">05</div>
                         <h3 class="h3-section-three">Share your realizations</h3>
                     </div>
@@ -212,9 +219,9 @@
         <div class="footer-container">
             <div class="footer-cont-down">
                 <div class="footer-desrc">
-                    <h1 class="title-section-one">Lorem ipsum dollar</h1>
+                    <h1 class="title-section-one ttl-ftr">Lorem ipsum dollar</h1>
                     <p class="p-section-one p-f">Lorem ipsum dolor sit amet, justo antiopam ei ius. Vix at postulant consequat conceptam, liber dolores</p>
-                    <button type="button" class="button-section-one">Join us now! 
+                    <button type="button" class="button-section-one btn-ftr">Join us now! 
                         <svg class="svg-section-one">
                         <use href="./images/symbol-defs.svg#icon-arrowright"></use>
                         </svg>
